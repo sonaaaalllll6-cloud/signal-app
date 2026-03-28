@@ -144,7 +144,7 @@ export default function Newsletters() {
                   className="scroll-mt-28"
                 >
                   <div className="mb-6">
-                    {cat}>{cat}</h2>
+                    <h2 className="font-serif text-2xl text-foreground">{cat}</h2>
                     <div className="h-px bg-border mt-2 mb-2" />
                     <p className="text-sm text-muted-foreground">{CATEGORY_DESCRIPTIONS[cat]}</p>
                   </div>
